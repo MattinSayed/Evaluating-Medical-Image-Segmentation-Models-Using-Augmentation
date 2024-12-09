@@ -9,7 +9,7 @@
 <sup>1</sup>Goethe University Frankfurt, University Hospital, Clinic for Radiology and Nuclear Medicine, Germany<sup>2</sup> Goethe University Frankfurt, University Department of Informatics
 
 Code for the paper ["Evaluating Medical Image Segmentation Models using
-Augmentation"]().
+Augmentation"](). The data can be downloaded from the following link: .
 
 ## Overview:
 The code implemented here can be used to predict the quality of a CT segmentation scan using agreement with segmentation masks for augmnetation scans. 
@@ -20,7 +20,7 @@ The code implemented here can be used to predict the quality of a CT segmentatio
 * `augmentation_script.ipynb`:  This script handles the inversion of the segmentation masks of the augmented CT-scans back to the affine of the ground truth segmentation masks.
 * `inverse_augmentations_script.ipynb`:  This script handles the augmentation of CT scans and segmentation masks. As a prerequisite, the user must provide the ground truth CT scan files as well as the corresponding ground truth segmentation masks.
 * `uncertainty_heatmap_script.ipynb`:  This script handles the generation of uncertainty heatmaps.
-* `example`:  
+* `[OSF Data]()`:  
     * `ACT`: Examples of CT scan augmentations for all three levels  
     * `GTCT`: Original CT scan
     * `GTSM`: Original scan segmnetation mask
